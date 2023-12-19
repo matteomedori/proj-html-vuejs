@@ -32,7 +32,9 @@ export default {
   <section>
     <div class="container">
       <div v-for="subSection in subSections">
-        <div class="left">i</div>
+        <div class="left">
+          <font-awesome-icon icon="fa-solid fa-user-secret" />
+        </div>
         <div class="right">
           <h5>{{ subSection.title }}</h5>
           <p>
