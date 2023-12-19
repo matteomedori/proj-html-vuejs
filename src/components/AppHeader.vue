@@ -1,23 +1,11 @@
 <script>
 import NavBar from "./NavBar.vue";
+import Jumbotron from "./Jumbotron.vue";
 export default {
   name: "AppHeader",
   components: {
     NavBar,
-  },
-  data() {
-    return {
-      links: [
-        "Home",
-        "Pages",
-        "Program",
-        "Tickets",
-        "Speakers",
-        "Papers",
-        "Blog",
-        "Shortcodes",
-      ],
-    };
+    Jumbotron,
   },
 };
 </script>
@@ -25,7 +13,7 @@ export default {
 <template>
   <header>
     <NavBar />
-    <div class="jumbo"></div>
+    <Jumbotron />
   </header>
 </template>
 
