@@ -1,11 +1,17 @@
 <script>
+import SectionWhoWhatWhy from "./SectionWhoWhatWhy.vue";
 export default {
   name: "AppMain",
+  components: {
+    SectionWhoWhatWhy,
+  },
 };
 </script>
 
 <template>
-  <main></main>
+  <main>
+    <SectionWhoWhatWhy />
+  </main>
 </template>
 
-<style></style>
+<style lang="scss"></style>
