@@ -1,0 +1,8 @@
+@use "./partials/reset" as *;
+@use "./partials/variables" as *;
+@use "./partials/typography" as *;
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
