@@ -22,9 +22,13 @@ import {
   faMagnifyingGlass,
   faPhone,
   faEnvelope,
+  faGear,
+  faPlay,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { faClock } from "@fortawesome/free-regular-svg-icons";
+
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -38,7 +42,10 @@ library.add(
   faUser,
   faMagnifyingGlass,
   faPhone,
-  faEnvelope
+  faEnvelope,
+  faTwitter,
+  faGear,
+  faPlay
 );
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
