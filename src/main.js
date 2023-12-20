@@ -19,6 +19,7 @@ import {
   faAngleLeft,
   faLocationArrow,
   faUser,
+  faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { faClock } from "@fortawesome/free-regular-svg-icons";
@@ -32,7 +33,8 @@ library.add(
   faAngleLeft,
   faClock,
   faLocationArrow,
-  faUser
+  faUser,
+  faMagnifyingGlass
 );
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

@@ -8,6 +8,7 @@ export default {
 <template>
   <ul class="nav-links">
     <li v-for="link in linkList">{{ link }}</li>
+    <li><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></li>
   </ul>
 </template>
 
