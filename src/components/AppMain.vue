@@ -5,6 +5,7 @@ import SectionSpeakers from "./SectionSpeakers.vue";
 import SectionProgram from "./SectionProgram.vue";
 import SectionMap from "./SectionMap.vue";
 import SectionLocation from "./SectionLocation.vue";
+import SectionRecentNews from "./SectionRecentNews.vue";
 export default {
   name: "AppMain",
   components: {
@@ -14,6 +15,7 @@ export default {
     SectionProgram,
     SectionMap,
     SectionLocation,
+    SectionRecentNews,
   },
 };
 </script>
@@ -26,6 +28,7 @@ export default {
     <SectionProgram />
     <SectionMap />
     <SectionLocation />
+    <SectionRecentNews />
   </main>
 </template>
 
