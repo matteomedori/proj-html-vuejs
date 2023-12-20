@@ -15,9 +15,11 @@ import {
   faTrophy,
   faBoltLightning,
   faQuestion,
+  faAngleRight,
+  faAngleLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
-library.add(faTrophy, faBoltLightning, faQuestion);
+library.add(faTrophy, faBoltLightning, faQuestion, faAngleRight, faAngleLeft);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

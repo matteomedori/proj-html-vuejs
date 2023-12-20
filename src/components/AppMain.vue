@@ -1,11 +1,13 @@
 <script>
 import SectionWhoWhatWhy from "./SectionWhoWhatWhy.vue";
 import SectionSubscribe from "./SectionSubscribe.vue";
+import SectionSpeakers from "./SectionSpeakers.vue";
 export default {
   name: "AppMain",
   components: {
     SectionWhoWhatWhy,
     SectionSubscribe,
+    SectionSpeakers,
   },
 };
 </script>
@@ -14,6 +16,7 @@ export default {
   <main>
     <SectionWhoWhatWhy />
     <SectionSubscribe />
+    <SectionSpeakers />
   </main>
 </template>
 
