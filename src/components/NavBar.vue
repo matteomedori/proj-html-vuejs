@@ -18,6 +18,7 @@ export default {
         "Papers",
         "Blog",
         "Shortcodes",
+        "|",
       ],
     };
   },

@@ -9,7 +9,7 @@ export default {
   <button>{{ buttonText }}</button>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 button {
   padding: 20px 25px;
   background-color: red;
