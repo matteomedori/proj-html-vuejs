@@ -17,9 +17,22 @@ import {
   faQuestion,
   faAngleRight,
   faAngleLeft,
+  faLocationArrow,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 
+import { faClock } from "@fortawesome/free-regular-svg-icons";
+
 /* add icons to the library */
-library.add(faTrophy, faBoltLightning, faQuestion, faAngleRight, faAngleLeft);
+library.add(
+  faTrophy,
+  faBoltLightning,
+  faQuestion,
+  faAngleRight,
+  faAngleLeft,
+  faClock,
+  faLocationArrow,
+  faUser
+);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
