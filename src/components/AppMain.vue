@@ -6,6 +6,7 @@ import SectionProgram from "./SectionProgram.vue";
 import SectionMap from "./SectionMap.vue";
 import SectionLocation from "./SectionLocation.vue";
 import SectionRecentNews from "./SectionRecentNews.vue";
+import SectionTickets from "./SectionTickets.vue";
 export default {
   name: "AppMain",
   components: {
@@ -16,6 +17,7 @@ export default {
     SectionMap,
     SectionLocation,
     SectionRecentNews,
+    SectionTickets,
   },
 };
 </script>
@@ -29,6 +31,7 @@ export default {
     <SectionMap />
     <SectionLocation />
     <SectionRecentNews />
+    <SectionTickets />
   </main>
 </template>
 

@@ -21,8 +21,6 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  height: 450px;
-
   .container {
     padding: 80px 0 70px 0;
   }
