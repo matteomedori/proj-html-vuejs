@@ -8,6 +8,7 @@ import SectionLocation from "./SectionLocation.vue";
 import SectionRecentNews from "./SectionRecentNews.vue";
 import SectionTickets from "./SectionTickets.vue";
 import SectionTwitterFeedVue from "./SectionTwitterFeed.vue";
+import SectionSponsors from "./SectionSponsors.vue";
 export default {
   name: "AppMain",
   components: {
@@ -20,6 +21,7 @@ export default {
     SectionRecentNews,
     SectionTickets,
     SectionTwitterFeedVue,
+    SectionSponsors,
   },
 };
 </script>
@@ -35,6 +37,7 @@ export default {
     <SectionRecentNews />
     <SectionTickets />
     <SectionTwitterFeedVue />
+    <SectionSponsors />
   </main>
 </template>
 
