@@ -28,7 +28,15 @@ import {
 
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faTwitter,
+  faSquareTwitter,
+  faSquareFacebook,
+  faLinkedin,
+  faSquareGooglePlus,
+  faSquarePinterest,
+  faFlickr,
+} from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -45,7 +53,13 @@ library.add(
   faEnvelope,
   faTwitter,
   faGear,
-  faPlay
+  faPlay,
+  faSquareTwitter,
+  faSquareFacebook,
+  faLinkedin,
+  faSquareGooglePlus,
+  faSquarePinterest,
+  faFlickr
 );
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
