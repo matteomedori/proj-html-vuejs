@@ -51,6 +51,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 section {
   .container {
     padding: 65px 0 55px 0;
@@ -63,7 +64,6 @@ section {
       gap: 25px;
 
       h5 {
-        text-transform: uppercase;
         font-size: 18px;
         font-weight: 600;
         letter-spacing: 1px;
@@ -71,12 +71,12 @@ section {
 
       p {
         margin: 20px 0;
-        color: gray;
+        color: $icon-gray;
         line-height: 24px;
       }
 
       a {
-        color: #f62b0a;
+        color: $button-bg;
         font-style: italic;
         font-size: 16px;
         font-weight: 500;
@@ -84,7 +84,7 @@ section {
     }
 
     .left {
-      color: #bababa;
+      color: $icon-gray;
       font-size: 25px;
     }
   }

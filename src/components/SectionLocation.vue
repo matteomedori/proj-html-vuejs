@@ -28,6 +28,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 section {
   height: 450px;
   padding: 100px 0 90px 0;
@@ -37,13 +38,11 @@ section {
   color: white;
 
   h2 {
-    text-transform: uppercase;
     font-size: 40px;
     letter-spacing: 4px;
   }
 
   h3 {
-    text-transform: uppercase;
     font-size: 22px;
     letter-spacing: 5px;
     margin: 45px 0 20px 0;
@@ -57,7 +56,7 @@ section {
 
   a {
     display: block;
-    color: red;
+    color: $button-bg;
     margin: 25px 0 45px 0;
     font-size: 16px;
     letter-spacing: 2px;

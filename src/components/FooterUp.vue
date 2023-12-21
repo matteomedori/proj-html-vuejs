@@ -82,8 +82,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 .footer-up {
-  background-color: #212121;
+  background-color: $footer-up-bg;
   padding: 60px 0;
   color: white;
 
@@ -95,7 +96,6 @@ export default {
     }
 
     h4 {
-      text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 14px;
       font-weight: 500;
@@ -112,7 +112,7 @@ export default {
 
       p {
         padding: 30px 50px 30px 0;
-        color: #babdbf;
+        color: $footer-up-text-primary;
         line-height: 20px;
       }
     }
@@ -120,7 +120,7 @@ export default {
     .recent-news {
       ul {
         margin-top: 30px;
-        color: gray;
+        color: $footer-up-text-secondary;
         padding: 0 10px;
 
         li {
@@ -139,16 +139,16 @@ export default {
     .check-out {
       p {
         padding: 30px 20px 30px 0;
-        color: #babdbf;
+        color: $footer-up-text-primary;
       }
 
       button {
         padding: 15px 20px;
-        background: red;
+        background: $button-bg;
         color: white;
         cursor: pointer;
         text-transform: uppercase;
-        border-bottom: 2px solid #a72510;
+        border-bottom: 2px solid $button-border-color;
         font-size: 12px;
         font-weight: 600;
       }

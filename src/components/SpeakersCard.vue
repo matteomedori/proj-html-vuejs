@@ -26,6 +26,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 .card {
   width: calc((100% - 90px) / 4);
   text-align: center;
@@ -55,7 +56,7 @@ export default {
       z-index: 2;
       opacity: 0;
       transition: 0.3s ease;
-      background-color: rgba($color: #f62b0a, $alpha: 0.6);
+      background-color: rgba($color: $button-bg, $alpha: 0.6);
       color: white;
       font-size: 20px;
     }
@@ -69,13 +70,14 @@ export default {
     margin: 25px 0 12px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #343434;
+    color: $speaker-name;
   }
 
   .job {
-    color: #707070;
+    color: $speaker-job;
     font-style: italic;
     font-weight: 600;
+    text-transform: none;
   }
 }
 </style>

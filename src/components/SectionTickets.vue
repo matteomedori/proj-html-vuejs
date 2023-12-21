@@ -25,7 +25,6 @@ section {
     padding: 90px 0 70px 0;
 
     h2 {
-      text-transform: uppercase;
       text-align: center;
       color: white;
       font-size: 40px;

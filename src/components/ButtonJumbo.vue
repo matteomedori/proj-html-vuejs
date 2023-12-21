@@ -10,9 +10,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
+
 button {
   padding: 20px 35px;
-  background-color: #f62b0a;
+  background-color: $button-bg;
   color: white;
   border-radius: 5px;
   text-transform: uppercase;

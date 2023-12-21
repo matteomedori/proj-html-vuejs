@@ -20,6 +20,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 input[type="text"] {
   padding: 20px 250px 20px 25px;
   border: none;
@@ -28,11 +29,11 @@ input[type="text"] {
 
 button {
   padding: 20px 25px 16px 25px;
-  background: red;
+  background: $button-bg;
   color: white;
   cursor: pointer;
   text-transform: uppercase;
-  border-bottom: 4px solid #a72510;
+  border-bottom: 4px solid $button-border-color;
   font-weight: 600;
 }
 </style>

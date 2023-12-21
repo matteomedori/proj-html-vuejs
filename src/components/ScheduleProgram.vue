@@ -35,16 +35,17 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 .schedule {
   padding: 60px 45px;
-  background-color: #f7f7f7;
+  background-color: $program-sect-bg;
   display: flex;
 
   .schedule-left {
     width: 25%;
 
     ul {
-      color: gray;
+      color: $recent-news-text;
       li {
         margin-bottom: 20px;
         display: flex;
@@ -52,7 +53,7 @@ export default {
         font-size: 13px;
 
         &:last-of-type p {
-          color: red;
+          color: $button-bg;
         }
       }
     }
@@ -62,8 +63,7 @@ export default {
     width: 75%;
 
     h3 {
-      text-transform: uppercase;
-      color: #515151;
+      color: $program-sect-gray;
       font-size: 25px;
       font-weight: 500;
       letter-spacing: 2px;
@@ -71,7 +71,7 @@ export default {
 
     p {
       margin: 25px 0;
-      color: gray;
+      color: $recent-news-text;
       line-height: 25px;
     }
 

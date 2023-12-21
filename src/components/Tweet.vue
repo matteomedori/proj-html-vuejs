@@ -16,10 +16,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 li {
   display: flex;
   gap: 20px;
-  color: gray;
+  color: $recent-news-text;
   margin-bottom: 30px;
   line-height: 20px;
 
@@ -41,7 +42,7 @@ li {
   }
 
   a {
-    color: red;
+    color: $button-bg;
   }
 }
 </style>

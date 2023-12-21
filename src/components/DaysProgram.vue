@@ -15,23 +15,23 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 .days {
   display: flex;
   gap: 1px;
-  background-color: #c72b11;
+  background-color: $days-program-bg;
   color: white;
 
   .day {
     width: calc((100% - 5px) / 6);
-    background-color: #f62b0a;
+    background-color: $button-bg;
     padding: 20px 0 20px 20px;
 
     &:first-of-type {
-      background-color: #c72b11;
+      background-color: $days-program-bg;
     }
 
     h4 {
-      text-transform: uppercase;
       margin-bottom: 5px;
     }
 

@@ -52,7 +52,6 @@ section {
     padding: 100px;
 
     h3 {
-      text-transform: uppercase;
       margin: 60px 0 45px 0;
       font-size: 25px;
       letter-spacing: 3px;

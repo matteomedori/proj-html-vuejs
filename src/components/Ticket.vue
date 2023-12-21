@@ -23,32 +23,28 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 .ticket {
   width: calc((100% - 60px) / 3);
   text-align: center;
 
   .ticket-head {
-    background-color: #e9e9e9;
+    background-color: $ticket-head;
     padding: 30px 0;
-
-    h4,
-    h5 {
-      text-transform: uppercase;
-    }
 
     h4 {
       font-size: 21px;
     }
 
     h5 {
-      color: red;
+      color: $button-bg;
       margin-top: 5px;
       font-size: 18px;
     }
   }
 
   .ticket-content {
-    color: gray;
+    color: $recent-news-text;
     font-style: italic;
     background-color: white;
     padding: 40px 0 15px 0;
@@ -61,7 +57,7 @@ export default {
   }
 
   .ticket-foot {
-    background-color: red;
+    background-color: $button-bg;
     color: white;
     padding: 20px 0;
     text-transform: uppercase;

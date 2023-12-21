@@ -16,6 +16,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 .section-head {
   display: flex;
   align-items: center;
@@ -23,7 +24,6 @@ export default {
   gap: 60px;
 
   h2 {
-    text-transform: uppercase;
     font-size: 35px;
     letter-spacing: 2px;
   }
@@ -31,7 +31,7 @@ export default {
   .center-program {
     padding-right: 200px;
     flex-grow: 1;
-    color: gray;
+    color: $recent-news-text;
 
     p {
       margin-bottom: 5px;
@@ -39,7 +39,7 @@ export default {
   }
 
   .right-program {
-    color: red;
+    color: $button-bg;
     font-style: italic;
   }
 }

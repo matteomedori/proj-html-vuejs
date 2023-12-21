@@ -28,6 +28,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 .news {
   width: calc((100% - 60px) / 3);
 
@@ -70,14 +71,14 @@ export default {
 
   p {
     margin: 30px 0;
-    color: gray;
+    color: $recent-news-text;
     line-height: 24px;
     font-size: 14px;
   }
 
   h5 {
     margin: 30px 0 15px 0;
-    color: gray;
+    color: $recent-news-text;
     letter-spacing: 2px;
     font-style: italic;
     font-weight: 500;
@@ -85,11 +86,11 @@ export default {
   }
 
   h3 {
-    text-transform: uppercase;
     letter-spacing: 2px;
   }
+
   a {
-    color: red;
+    color: $button-bg;
     font-style: italic;
     letter-spacing: 1px;
   }

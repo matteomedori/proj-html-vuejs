@@ -24,9 +24,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 .footer-down {
-  background-color: #161616;
-  color: gray;
+  background-color: $footer-down-bg;
+  color: $text-primary-color;
 
   .container {
     padding: 25px 0;

@@ -20,8 +20,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 section {
-  background-color: #f3f3f3;
+  background-color: $speakers-bg;
   .container {
     padding: 80px 0 70px 0;
   }

@@ -13,6 +13,8 @@ export default {
 </template>
 
 <style lang="scss">
+@use "../assets/css/partials/variables" as *;
+
 .nav-links {
   display: flex;
   gap: 30px;
@@ -21,15 +23,15 @@ export default {
     text-transform: uppercase;
     padding: 10px 0;
     border-bottom: 3px solid transparent;
-    color: #8e8e8e;
+    color: $link-color;
     font-weight: 600;
     font-size: 12px;
     letter-spacing: 2px;
 
     &:hover {
-      color: #f62b0a;
+      color: $button-bg;
       cursor: pointer;
-      border-color: #f62b0a;
+      border-color: $button-bg;
     }
   }
 }

@@ -12,19 +12,19 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 .recent-news-head {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
 
   h2 {
-    text-transform: uppercase;
     font-size: 28px;
     letter-spacing: 2px;
   }
 
   .right-head {
-    color: red;
+    color: $button-bg;
     font-style: italic;
   }
 }

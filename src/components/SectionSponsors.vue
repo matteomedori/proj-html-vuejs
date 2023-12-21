@@ -22,15 +22,15 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/css/partials/variables" as *;
 section {
-  background-color: #f6f6f6;
+  background-color: $sponsors-bg;
   text-align: center;
 
   .container {
     padding: 85px 0 70px 0;
 
     h2 {
-      text-transform: uppercase;
       font-size: 35px;
       letter-spacing: 4px;
     }
