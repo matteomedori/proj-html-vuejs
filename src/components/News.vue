@@ -33,7 +33,8 @@ export default {
   p {
     margin: 30px 0;
     color: gray;
-    line-height: 22px;
+    line-height: 24px;
+    font-size: 14px;
   }
 
   h5 {
@@ -41,14 +42,18 @@ export default {
     color: gray;
     letter-spacing: 2px;
     font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
   }
 
   h3 {
     text-transform: uppercase;
+    letter-spacing: 2px;
   }
   a {
     color: red;
     font-style: italic;
+    letter-spacing: 1px;
   }
 }
 </style>

@@ -23,12 +23,13 @@ export default {
     border-bottom: 3px solid transparent;
     color: #8e8e8e;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: 2px;
 
     &:hover {
-      color: red;
+      color: #f62b0a;
       cursor: pointer;
-      border-color: red;
+      border-color: #f62b0a;
     }
   }
 }

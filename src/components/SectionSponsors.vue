@@ -32,7 +32,7 @@ section {
     h2 {
       text-transform: uppercase;
       font-size: 35px;
-      letter-spacing: 2px;
+      letter-spacing: 4px;
     }
 
     p {

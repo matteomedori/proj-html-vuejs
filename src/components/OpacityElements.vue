@@ -18,9 +18,9 @@ export default {
 .opacity-container {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   .opacity-elem {
-    padding: 0 50px;
+    padding: 0 45px;
     height: 140px;
     background-color: rgba($color: #000000, $alpha: 0.8);
     color: white;
@@ -43,8 +43,9 @@ export default {
     background-color: rgba($color: #000000, $alpha: 0.5);
   }
   .count {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 700;
+    margin-bottom: 10px;
   }
 
   .type {

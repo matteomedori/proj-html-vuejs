@@ -53,9 +53,9 @@ section {
 
     h3 {
       text-transform: uppercase;
-      margin: 50px 0 40px 0;
+      margin: 60px 0 45px 0;
       font-size: 25px;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
     }
   }
 }

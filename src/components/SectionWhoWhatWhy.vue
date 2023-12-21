@@ -6,24 +6,24 @@ export default {
       subSections: [
         {
           icon: "fa-solid fa-trophy",
-          title: "who are we",
+          title: "who we are",
           paragraph:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi placeat distinctio harum aliquam ullam at assumenda nisi.",
-          linkText: "Learn more",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi placeat distinctio harum aliquam.",
+          linkText: "Learn More",
         },
         {
           icon: "fa-solid fa-bolt-lightning",
           title: "what we do",
           paragraph:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi placeat distinctio harum aliquam ullam at assumenda nisi.",
-          linkText: "Learn more",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi placeat distinctio harum aliquam.",
+          linkText: "Learn More",
         },
         {
           icon: "fa-solid fa-question",
           title: "why us?",
           paragraph:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi placeat distinctio harum aliquam ullam at assumenda nisi.",
-          linkText: "Learn more",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi placeat distinctio harum aliquam.",
+          linkText: "Learn More",
         },
       ],
     };
@@ -53,7 +53,7 @@ export default {
 <style lang="scss" scoped>
 section {
   .container {
-    padding: 55px 0;
+    padding: 65px 0 55px 0;
     display: flex;
     gap: 25px;
 
@@ -61,22 +61,31 @@ section {
       width: calc(100% / 3);
       display: flex;
       gap: 25px;
+
       h5 {
         text-transform: uppercase;
         font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 1px;
       }
 
       p {
         margin: 20px 0;
         color: gray;
-        line-height: 20px;
+        line-height: 24px;
       }
 
       a {
-        color: red;
+        color: #f62b0a;
         font-style: italic;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 500;
       }
+    }
+
+    .left {
+      color: #bababa;
+      font-size: 25px;
     }
   }
 }

@@ -14,11 +14,11 @@ export default {
         },
         {
           text: 'Do you need to deliver the perfect presentation or creative pitch? Sure, your ideas and plan need to be on-point, b..<a href="#">https/ncjKDKDL</a>',
-          posted: "3 days ago",
+          posted: "9 days ago",
         },
         {
           text: 'Cut yourself a piece of the BFCM sales pie with a solid marketing plan. Here are 5 ways to optimize your content fo..<a href="#">https/cnjKdD</a>',
-          posted: "3 days ago",
+          posted: "11 days ago",
         },
       ],
     };

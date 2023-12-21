@@ -29,7 +29,7 @@ section {
       text-align: center;
       color: white;
       font-size: 40px;
-      letter-spacing: 1px;
+      letter-spacing: 3px;
       margin-bottom: 55px;
     }
   }

@@ -42,7 +42,7 @@ section {
       h3 {
         text-transform: uppercase;
         font-size: 26px;
-        letter-spacing: 1px;
+        letter-spacing: 3px;
       }
     }
 

@@ -34,7 +34,7 @@ export default {
 
 <style lang="scss">
 nav {
-  padding: 45px 0 40px 0;
+  padding: 40px 0 35px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

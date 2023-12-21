@@ -14,7 +14,13 @@ export default {
       <h2>conference on</h2>
       <h1>Social Networks</h1>
       <div><img src="../assets/img/hr_white.jpg" alt="" /></div>
-      <p>23/26 MAY 2019 / San Francisco / 8 Speakers</p>
+      <ul>
+        <li>23 - 26 MAY 2019</li>
+        <li>/</li>
+        <li>San Francisco</li>
+        <li>/</li>
+        <li>8 Speakers</li>
+      </ul>
       <ButtonJumbo :buttonText="'register online'" />
     </div>
   </div>
@@ -45,8 +51,13 @@ export default {
       margin-bottom: 20px;
     }
 
-    p {
+    ul {
       margin: 10px 0 40px 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-weight: 600;
+      letter-spacing: 1px;
     }
   }
 }

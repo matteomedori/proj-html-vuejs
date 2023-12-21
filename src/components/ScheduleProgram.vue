@@ -27,8 +27,7 @@ export default {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, totam eum
         cupiditate ullam assumenda quibusdam non molestiae sequi iure delectus?
-        Repellat cupiditate nihil similique, atque tempora labore rerum
-        provident repellendus.
+        Repellat cupiditate nihil similique.
       </p>
       <img src="../assets/img/speaker-5-150x150.jpg" alt="" />
     </div>
@@ -47,10 +46,10 @@ export default {
     ul {
       color: gray;
       li {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         display: flex;
         gap: 15px;
-        font-size: 15px;
+        font-size: 13px;
 
         &:last-of-type p {
           color: red;
@@ -66,6 +65,8 @@ export default {
       text-transform: uppercase;
       color: #515151;
       font-size: 25px;
+      font-weight: 500;
+      letter-spacing: 2px;
     }
 
     p {

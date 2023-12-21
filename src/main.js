@@ -5,6 +5,9 @@ import "./assets/css/style.scss";
 import App from "./App.vue";
 
 import "@fontsource/raleway";
+import "@fontsource/raleway/500.css"; // Specify weight
+import "@fontsource/raleway/600.css"; // Specify weight
+import "@fontsource/raleway/800.css"; // Specify weight
 
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";

@@ -21,22 +21,25 @@ export default {
 <style lang="scss" scoped>
 .card {
   width: calc((100% - 90px) / 4);
-  height: 200px;
   text-align: center;
 
   img {
     max-width: 100%;
+    border-radius: 5px;
+    display: block;
   }
 
   .name {
     margin: 25px 0 12px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: #343434;
   }
 
   .job {
-    color: gray;
+    color: #707070;
     font-style: italic;
+    font-weight: 600;
   }
 }
 </style>

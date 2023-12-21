@@ -18,6 +18,7 @@ export default {
 <style lang="scss" scoped>
 .section-head {
   display: flex;
+  align-items: center;
   margin-bottom: 70px;
   gap: 60px;
 
@@ -28,7 +29,7 @@ export default {
   }
 
   .center-program {
-    padding-right: 250px;
+    padding-right: 200px;
     flex-grow: 1;
     color: gray;
 

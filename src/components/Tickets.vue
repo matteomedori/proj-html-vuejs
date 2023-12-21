@@ -16,7 +16,7 @@ export default {
             "Coffee Break",
             "Lunch(International buffet)",
             "Document Sheets",
-            "50usd Voucher for Next Event",
+            "50USD Voucher for Next Event",
           ],
         },
         {
@@ -27,7 +27,7 @@ export default {
             "Coffee Break",
             "Lunch(International buffet)",
             "Document Sheets",
-            "100usd Voucher for Next Event",
+            "100USD Voucher for Next Event",
           ],
         },
         {
@@ -38,7 +38,7 @@ export default {
             "Coffee Break",
             "Lunch(International buffet)",
             "Document Sheets",
-            "70usd Voucher for Next Event",
+            "70USD Voucher for Next Event",
           ],
         },
       ],

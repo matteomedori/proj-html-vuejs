@@ -28,9 +28,16 @@ li {
     font-size: 20px;
   }
 
+  .tweet {
+    & > p:first-child {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
   .posted {
     font-style: italic;
     margin-top: 15px;
+    font-size: 13px;
   }
 
   a {

@@ -27,11 +27,12 @@ input[type="text"] {
 }
 
 button {
-  padding: 20px 25px;
+  padding: 20px 25px 16px 25px;
   background: red;
   color: white;
   cursor: pointer;
   text-transform: uppercase;
-  border-bottom: 2px solid #a72510;
+  border-bottom: 4px solid #a72510;
+  font-weight: 600;
 }
 </style>

@@ -96,8 +96,9 @@ export default {
 
     h4 {
       text-transform: uppercase;
-      letter-spacing: 1px;
-      font-size: 16px;
+      letter-spacing: 2px;
+      font-size: 14px;
+      font-weight: 500;
     }
     .about-us {
       ul {
@@ -111,7 +112,7 @@ export default {
 
       p {
         padding: 30px 50px 30px 0;
-        color: gray;
+        color: #babdbf;
         line-height: 20px;
       }
     }
@@ -138,7 +139,7 @@ export default {
     .check-out {
       p {
         padding: 30px 20px 30px 0;
-        color: gray;
+        color: #babdbf;
       }
 
       button {
@@ -149,6 +150,7 @@ export default {
         text-transform: uppercase;
         border-bottom: 2px solid #a72510;
         font-size: 12px;
+        font-weight: 600;
       }
     }
 

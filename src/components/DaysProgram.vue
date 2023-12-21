@@ -23,7 +23,7 @@ export default {
 
   .day {
     width: calc((100% - 5px) / 6);
-    background-color: red;
+    background-color: #f62b0a;
     padding: 20px 0 20px 20px;
 
     &:first-of-type {
@@ -32,6 +32,11 @@ export default {
 
     h4 {
       text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    h5 {
+      font-weight: 400;
     }
   }
 }

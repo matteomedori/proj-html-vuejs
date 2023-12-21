@@ -39,13 +39,13 @@ section {
   h2 {
     text-transform: uppercase;
     font-size: 40px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
   }
 
   h3 {
     text-transform: uppercase;
     font-size: 22px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     margin: 45px 0 20px 0;
   }
 
@@ -59,7 +59,8 @@ section {
     display: block;
     color: red;
     margin: 25px 0 45px 0;
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 2px;
   }
 
   ul {
@@ -67,6 +68,10 @@ section {
     justify-content: center;
     gap: 25px;
     margin-top: 5px;
+  }
+
+  img {
+    max-width: 450px;
   }
 }
 </style>

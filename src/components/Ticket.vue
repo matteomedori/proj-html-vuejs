@@ -37,7 +37,7 @@ export default {
     }
 
     h4 {
-      font-size: 20px;
+      font-size: 21px;
     }
 
     h5 {
