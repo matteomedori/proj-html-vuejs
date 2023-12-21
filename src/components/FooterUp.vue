@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-  <div class="footer-up">
+  <section class="footer-up">
     <div class="container">
       <div class="about-us">
         <h4>About us</h4>
@@ -78,7 +78,7 @@ export default {
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>

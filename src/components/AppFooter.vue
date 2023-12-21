@@ -1,9 +1,11 @@
 <script>
 import FooterUp from "./FooterUp.vue";
+import FooterDown from "./FooterDown.vue";
 export default {
   name: "AppFooter",
   components: {
     FooterUp,
+    FooterDown,
   },
 };
 </script>
@@ -11,6 +13,7 @@ export default {
 <template>
   <footer>
     <FooterUp />
+    <FooterDown />
   </footer>
 </template>
 
