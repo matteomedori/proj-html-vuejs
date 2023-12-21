@@ -1,7 +1,7 @@
 <script>
 export default {
   name: "Ticket",
-  props: ["duration", "cost", "advantages"],
+  props: ["duration", "cost", "advantages", "featured"],
 };
 </script>
 
@@ -19,6 +19,7 @@ export default {
     <div class="ticket-foot">
       <h5>book now</h5>
     </div>
+    <div class="featured" v-if="featured">Featured!</div>
   </div>
 </template>
 
@@ -27,6 +28,8 @@ export default {
 .ticket {
   width: calc((100% - 60px) / 3);
   text-align: center;
+  position: relative;
+  overflow: hidden;
 
   .ticket-head {
     background-color: $ticket-head;
@@ -61,6 +64,22 @@ export default {
     color: white;
     padding: 20px 0;
     text-transform: uppercase;
+  }
+
+  .featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 25px;
+    right: -65px;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s ease;
   }
 }
 </style>

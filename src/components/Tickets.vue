@@ -18,6 +18,7 @@ export default {
             "Document Sheets",
             "50USD Voucher for Next Event",
           ],
+          featured: false,
         },
         {
           duration: "four day passes",
@@ -29,6 +30,7 @@ export default {
             "Document Sheets",
             "100USD Voucher for Next Event",
           ],
+          featured: true,
         },
         {
           duration: "two day passes",
@@ -40,6 +42,7 @@ export default {
             "Document Sheets",
             "70USD Voucher for Next Event",
           ],
+          featured: false,
         },
       ],
     };
@@ -54,6 +57,7 @@ export default {
       :duration="ticket.duration"
       :cost="ticket.cost"
       :advantages="ticket.advantages"
+      :featured="ticket.featured"
     />
   </div>
 </template>
