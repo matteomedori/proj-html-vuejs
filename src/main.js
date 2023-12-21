@@ -29,6 +29,7 @@ import {
   faEnvelope,
   faGear,
   faPlay,
+  faBullhorn,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { faClock } from "@fortawesome/free-regular-svg-icons";
@@ -68,7 +69,8 @@ library.add(
   faSquarePinterest,
   faFlickr,
   faLinkedinIn,
-  faFacebookF
+  faFacebookF,
+  faBullhorn
 );
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
