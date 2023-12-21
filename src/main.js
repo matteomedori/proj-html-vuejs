@@ -4,6 +4,8 @@ import { createApp } from "vue";
 import "./assets/css/style.scss";
 import App from "./App.vue";
 
+import "@fontsource/raleway";
+
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
 
