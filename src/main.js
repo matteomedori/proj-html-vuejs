@@ -37,7 +37,9 @@ import {
   faTwitter,
   faSquareTwitter,
   faSquareFacebook,
+  faFacebookF,
   faLinkedin,
+  faLinkedinIn,
   faSquareGooglePlus,
   faSquarePinterest,
   faFlickr,
@@ -64,7 +66,9 @@ library.add(
   faLinkedin,
   faSquareGooglePlus,
   faSquarePinterest,
-  faFlickr
+  faFlickr,
+  faLinkedinIn,
+  faFacebookF
 );
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
